@@ -57,7 +57,7 @@ class Zoo {
         return this._animals;
     }
 
-    public makeSound(animal: object) : string {
+    public makeSound(animal: object): string {
         switch(animal.type) {
             case 'cat':
                 return 'Miauw';
