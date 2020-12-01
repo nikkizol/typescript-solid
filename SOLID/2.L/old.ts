@@ -29,7 +29,7 @@ class Discount {
         }
     }
 
-    showCalculation(price : number) : string {
+    showCalculation(price: number) : string {
         if(this._type === "none")  {
             return "No discount";
         }
